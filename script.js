@@ -3,7 +3,7 @@ const API_ENDPOINT_1 = "https://dummyjson.com/posts";
 const API_ENDPOINT_2 = "https://dummyjson.com/products";
 const API_ENDPOINT_3 = " https://dummyjson.com/todos";
 
-// Simulated fetch function
+// Simulated Fetch Function
 function fetchData(url) {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
